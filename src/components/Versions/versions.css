@@ -1,0 +1,83 @@
+.versions_container {
+    height: 1000px;
+    background: rgb(63, 62, 62);
+    display: flex;
+    width: 100%;
+}
+
+.versions_content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.versions_text {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -5%;
+    text-shadow: 5px 5px 5px black;
+}
+
+.versions {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    color: white;
+}
+
+.version_g {
+    padding: 0 20px;
+    width: 20%;
+    transition: .5s;
+}
+
+.version_name {
+    margin-top: 20px;
+    color: rgb(44, 211, 183);
+}
+
+.version_g li {
+    margin-bottom: 20px;
+}
+
+.version_g h1:nth-child(3) {
+    color: rgb(44, 211, 183);
+}
+
+.version_g:hover {
+    background: rgba(124, 124, 124, 0.3);
+    border-radius: 40px;
+}
+
+.version_g hr {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.individual_button {
+    background: rgba(124, 124, 124, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(44, 211, 183);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.individual_button:hover {
+    background: rgb(44, 211, 183);
+    color: black;
+}
