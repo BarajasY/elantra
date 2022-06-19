@@ -1,18 +1,18 @@
 import React from "react";
-import "./body.css";
+import "./NACTOY.css";
 
-const Body = () => {
+const NACTOY = () => {
   return (
-    <div className="body_container">
-      <div className="body_header">
+    <div className="NACTOY_container">
+      <div className="NACTOY_header">
         <a
           href="https://northamericancaroftheyear.org/nactoy-reveals-winners-of-the-2021-north-american-car-truck-and-utility-vehicle-of-the-year/"
           target="_blank"
           rel="noreferrer"
+          className="img"
         >
-          <div className="img"></div>
         </a>
-        <div className="body_content">
+        <div className="NACTOY_content">
           <h1>
             Hyundai Elantra, recognized as the 2021 North American Car of the
             Year
@@ -29,4 +29,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default NACTOY;

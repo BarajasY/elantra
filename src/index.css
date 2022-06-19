@@ -12,11 +12,20 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+}
+
+Link {
+  text-decoration: none;
+  color: black;
 }
 
 a {

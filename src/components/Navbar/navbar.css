@@ -1,9 +1,11 @@
 .navbar_container {
     height: 70px;
     width: 100%;
+    max-width: 100%;
     background: none;
     position: fixed;
     user-select: none;
+    z-index: 10;
 }
 
 .navbar_container.active {
@@ -12,7 +14,7 @@
     transition: .6s;
 }
 
-.navbar_container.active a {
+.navbar_container.active Link {
     color: white;
 }
 
@@ -21,7 +23,6 @@
 }
 
 .navbar_content {
-    margin-top: 10px;
     display: flex;
     height: 60px;
 }
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 4em;
     transition: .5s;
     color: white;
 }
@@ -42,9 +43,14 @@
 }
 
 .links_container {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
-    margin-left: 65%;
+    cursor: pointer;
+    justify-content: flex-end;
+    margin-right: 15%;
 }
 
 .links {
@@ -54,14 +60,8 @@
     justify-content: flex-end;
 }
 
-.links a {
+.link {
+    padding: 0px 10px;
     color: white;
-    display: flex;
-    margin: 0px 20px;
     font-size: 20px;
-    transition: .5s;
-}
-
-.links a:hover {
-    color: rgb(115, 118, 121, 1)
 }

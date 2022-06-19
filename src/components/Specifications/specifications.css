@@ -1,40 +1,86 @@
-.specifications_container {
-    height: 100px;
-    background: black;
+.Specifications_container {
+    height: 1000px;
+    background: rgb(63, 62, 62);
+    display: flex;
     width: 100%;
+    max-width: 100%;
 }
 
-.specifications_header {
+.Specifications_content {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 15px;
-    color: rgb(44, 211, 183);
-    font-size: 30px;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.specifications_details {
+.Specifications_text {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
     color: white;
-    font-size: 20px;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 10px;
 }
 
-.title {
+.Specifications {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    color: white;
+}
+
+.Specifications_info {
+    width: 20%;
     transition: .5s;
-}
-
-.title:hover {
-    color: rgb(115, 118, 121)
-}
-
-.specifications_section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.specifications_section p:nth-child(2) {
-    font-size: 20px;
-    color: white;
+.Specifications_name {
+    color: rgb(44, 211, 183);
+}
+
+.Specifications_info li {
+    margin-bottom: 20px;
+}
+
+.Specifications_info h1:nth-child(3) {
+    color: rgb(44, 211, 183);
+}
+
+.Specifications_info:hover {
+    background: rgba(124, 124, 124, 0.3);
+    border-radius: 40px;
+}
+
+.Specifications_info hr {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.individual_button {
+    background: rgba(124, 124, 124, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(44, 211, 183);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.individual_button:hover {
+    background: rgb(44, 211, 183);
+    color: black;
 }

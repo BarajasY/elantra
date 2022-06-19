@@ -1,16 +1,17 @@
 import React from 'react';
-import { Navbar, Header, Specifications, Body, Versions, Family } from "./components/index";
-import './App.css';
+import { Navbar, Carousel, Details, NACTOY, Specifications, Versions } from "./components/index";
+import './App.css'
 
 function App() {
+
   return (
     <div className="App">
-      <Navbar id="Navbar" />
-      <Header />
+      <Navbar />
+      <Carousel />
+      <Details />
+      <NACTOY />
       <Specifications />
-      <Body />
       <Versions />
-      <Family />
     </div>
   );
 }
