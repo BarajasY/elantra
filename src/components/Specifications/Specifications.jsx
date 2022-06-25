@@ -1,5 +1,5 @@
 import React from "react";
-import "./Specifications.css";
+import "./specifications.css";
 import { Version } from './data.js';
 
 const Versions = () => {
