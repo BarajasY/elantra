@@ -1,16 +1,11 @@
 .NACTOY_container {
-    height: 450px;
+    height: 800px;
     width: 100%;
     max-width: 100%;
     background: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
-}
-
-.NACTOY_header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .img {
@@ -25,24 +20,39 @@
 }
 
 .NACTOY_content {
-    width: fit-content;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.NACTOY_content h1 {
-    font-size: 30px;
-    color: rgb(104, 215, 197);
+.NACTOY_image {
+    width: 400px;
+    height: 400px;
+    background: url('../../assets/car_oty.PNG');
+    cursor: pointer;
+}
+
+.NACTOY_image a {
+    z-index: 10;
+}
+
+.NACTOY_image:hover {
+    transform: scale(1.05);
     transition: .5s;
 }
 
-.NACTOY_content h1:hover {
-    color: rgb(115, 118, 121)
+.NACTOY_text {
+    color: rgb(44, 211, 183);
+    width: 600px;
+    text-align: center;
 }
 
-.NACTOY_content p {
-    font-size: 20px;
-    color: rgb(201, 201, 201)
+.NACTOY_text h1 {
+    font-size: 30px;
+}
+
+.NACTOY_text p {
+    color: white;
 }
