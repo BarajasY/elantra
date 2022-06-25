@@ -1,5 +1,5 @@
 import React from 'react';
-import './Versions.css';
+import './versions.css';
 
 const Versions = () => {
     return (
