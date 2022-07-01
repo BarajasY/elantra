@@ -23,7 +23,7 @@
 
 .type {
     color: white;
-    width: 700px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -34,6 +34,7 @@
     box-shadow: 10px 10px 10px black;
     cursor: pointer;
     margin: 20px;
+    text-align: center;
 }
 
 .type:hover {
@@ -59,16 +60,19 @@
 .type:nth-child(1) {
     background-image: url(../../assets/elantra_2.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .type:nth-child(2) {
     background-image: url(../../assets/elantra_hybrid.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .type:nth-child(3) {
     background-image: url(../../assets/elantra_n.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .image_link {
