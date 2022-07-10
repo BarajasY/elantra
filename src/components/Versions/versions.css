@@ -23,7 +23,7 @@
 
 .type {
     color: white;
-    width: 90%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -93,5 +93,11 @@
 
     .Versions_container {
         height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .type {
+        width: 400px;
     }
 }
