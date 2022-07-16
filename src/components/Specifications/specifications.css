@@ -8,6 +8,7 @@
 
 .Specifications_content {
     display: flex;
+    padding: 200px 0px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
@@ -24,7 +25,7 @@
     flex-direction: column;
     color: white;
     text-shadow: 5px 5px 5px black;
-    margin-top: 10px;
+    margin-bottom: 70px;
     text-align: center;
 }
 
