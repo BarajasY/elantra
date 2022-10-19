@@ -21,11 +21,11 @@
     height: 400px;
     background: url('../../assets/car_oty.PNG');
     cursor: pointer;
+    transition: .5s;
 }
 
 .NACTOY_image:hover {
     transform: scale(1.05);
-    transition: .5s;
 }
 
 .NACTOY_text {
