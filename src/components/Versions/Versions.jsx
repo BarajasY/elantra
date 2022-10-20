@@ -71,6 +71,7 @@ const Versions = () => {
                                             <motion.img src={gls_ivt} alt="gls_ivt" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} />
                                         </div>
                                         <motion.div className="versions_details" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: false }} transition={{ duration: .5 }}>
+                                            <h1>GLS IVT</h1>
                                             <h1>$399,900 MXN</h1>
                                             <h1>147-hp 2.0L 4-cylinder engine</h1>
                                             <li>Aluminum 16"</li>
@@ -88,6 +89,7 @@ const Versions = () => {
                                         <motion.img src={premium_ivt} alt="premium_ivt" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} />
                                     </div>
                                     <motion.div className="versions_details" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }}>
+                                        <h1>PREMIUM IVT</h1>
                                         <h1>$459,900 MXN</h1>
                                         <h1>147-hp 2.0L 4-cylinder engine</h1>
                                         <li>10.25-inch touchscreen</li>
@@ -106,6 +108,7 @@ const Versions = () => {
                                             <motion.img src={limited_tech} alt="limited_tech" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} />
                                         </div>
                                         <motion.div className="versions_details" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }}>
+                                            <h1>LIMITED TECH</h1>
                                             <h1>$519,900 MXN</h1>
                                             <h1>147-hp 2.0L 4-cylinder engine</h1>
                                             <li>Aluminum 17"</li>
@@ -121,9 +124,10 @@ const Versions = () => {
                             4:
                                 <>
                                     <div className="versions_img">
-                                        <motion.img src={elantra_n} alt="elantra_n" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} style={{ width: '600px', height: '400px' }} />
+                                        <motion.img src={elantra_n} alt="elantra_n" id='elantra_n' exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }} />
                                     </div>
                                     <motion.div className="versions_details" exit={{ opacity: 0 }} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: .5 }}>
+                                        <h1>ELANTRA N</h1>
                                         <h1>$540,537 MXN</h1>
                                         <h1>276-hp 2.0L 4-cylinder engine</h1>
                                         <li>Aluminum 18"</li>
