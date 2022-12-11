@@ -9,7 +9,7 @@
 }
 
 .NACTOY_content {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,12 +36,14 @@
 }
 
 .NACTOY_text h1 {
-    font-size: 30px;
+    font-size: 5vw;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .NACTOY_text p {
-    font-size: 20px;
+    font-size: 1.3vw;
     color: white;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 @media only screen and (max-width: 991px) {
@@ -50,5 +52,13 @@
         height: 300px;
         background-position: center;
         background-size: cover;
+    }
+
+    .NACTOY_text h1 {
+        font-size: 8vw;
+    }
+
+    .NACTOY_text p {
+        font-size: 3vw;
     }
 }

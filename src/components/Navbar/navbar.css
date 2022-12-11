@@ -34,7 +34,8 @@
     font-family: 'Playfair Display', sans-serif;
     font-size: 60px;
     display: flex;
-    justify-content: flex-start;
+    width: 300px;
+    justify-content: center;
     align-items: center;
     transition: .5s;
     color: white;
@@ -47,41 +48,42 @@
     content: '';
     display: block;
     position: absolute;
-    width: 110%;
+    width: 120%;
     height: 100%;
     top: 0;
     left: 0;
     background: white;
     z-index: -1;
-    transform: translateX(100%);
-    transition: .2s;
+    transform: translateX(100%) skew(50deg);
+    transition: .5s;
 }
 
 .logo:hover::before {
     transform: translateX(0);
 }
 
-.logo::after {
+.logo:hover {
+    color: black;
+}
+
+/* .logo::after {
     content: '';
     display: block;
     position: absolute;
-    width: 110%;
+    width: 120%;
     height: 100%;
     top: 0;
     left: 0;
     background: white;
     z-index: -1;
-    transform: translateX(-100%);
-    transition: .2s;
+    transform: translateX(-100%) skew(0deg);
+    transition: .5s;
 }
 
 .logo:hover::after {
     transform: translateX(0);
-}
+} */
 
-.logo:hover {
-    color: black;
-}
 
 @media only screen and (max-width: 991px) {
     .navbar_content {
@@ -90,7 +92,7 @@
     }
 
     .logo {
-        justify-content: flex-end;
+        font-size: 8vw;
         margin-left: 0;
     }
 }
