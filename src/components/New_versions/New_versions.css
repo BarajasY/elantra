@@ -154,6 +154,10 @@
         width: 100vw;
     }
 
+    .version {
+        width: 100vw;
+    }
+
     .brand_column h1 {
         writing-mode: horizontal-tb;
         transform: rotate(0deg);
